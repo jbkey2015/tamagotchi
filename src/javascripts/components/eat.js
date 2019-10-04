@@ -3,9 +3,7 @@ import util from '../helpers/utilities';
 const eatTomQuad = () => {
   let eatString = '<h1>Eat</h1>';
   let full = 100;
-  eatString += '<button id="vegetable" type="button">Vegetable</button>';
-  eatString += '<button id="doughnut" type="button">Doughnut</button>';
-  eatString += `<p><progress value="${full}" max="100" id="eatAmt"></progress></p>`;
+  eatString += `<button id="vegetable" type="button">Vegetable</button> <button id="doughnut" type="button">Doughnut</button> <p><progress value="${full}" max="100" id="eatAmt"></progress></p>`;
   util.printToDom('eat', eatString);
   const vegetableBtn = document.getElementById('vegetable');
   const doughnutBtn = document.getElementById('doughnut');
