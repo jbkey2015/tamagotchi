@@ -1,4 +1,6 @@
-import util from '../helpers/utilities';
+import './eat.scss';
+
+import util from '../../helpers/utilities';
 
 const eatTomQuad = () => {
   let eatString = '<h1>Eat</h1>';

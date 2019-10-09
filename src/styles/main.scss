@@ -1,22 +1,4 @@
-body {
-    background-color: cyan;
+.quad {
+  height: 50%;
+  width: 50%; 
 }
-
-#eat {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: lightcoral;
-  text-align: center;
-};
-  
-#eatAmt{
-  width: 200px;
-  height: 10px;
-  background-color: lightgreen;
-};
-  
-button{
-  border-radius: 10px;
-  background-color: rgb(42, 132, 221);
-};
